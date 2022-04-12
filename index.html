@@ -18,48 +18,55 @@
   <!-- NAVEGADOR-->
  
 <header>    
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+  
     <a class="navbar-brand" href="#"> <img src="logo_argprograma_recortado.png" alt="" width="110" ></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+      
        <!-- HOME-->     
        <li>
-      <button type="button"  class="btn btn-dark "><i class="bi bi-house-door" style="font-size: 1.5em;color:rgb(233, 171, 36);"></i>HOME</button>      
+        <a class="btn btn-dark" href="#" role="button"><i class="bi bi-house-door" style="font-size: 1.5em;color:rgb(233, 171, 36);"></i>HOME</a>
+      
       </li>
       <!-- SOBRE MI -->
       <li>
-      <button type="button" class="btn btn-dark"><i class="bi bi-person" style="font-size: 1.5em;color:rgb(187, 34, 201);"></i>SOBRE MI</button>
-      </li>
-      <!-- PROYECTOS -->
+        <a class="btn btn-dark" href="#sobremi" role="button"><i class="bi bi-person" style="font-size: 1.5em;color:rgb(187, 34, 201);"></i>SOBRE MI</a>
+     
+      <!-- EDUCACION -->
       <li>
-      <button type="button"  class="btn btn-dark"><i class="bi bi-code-square" style="font-size: 1.5em;color:rgb(34, 201, 78);"></i>PROYECTOS</button>
+        <a class="btn btn-dark" href="#educacion" role="button"><i class="bi bi-book" style="font-size: 1.5em;color:rgb(223, 9, 87);"></i>EDUCACION</a>
       </li>
+
+      <!-- PROYECTOS -->    
+      <li>
+        <a class="btn btn-dark" href="#proyectos" role="button"><i class="bi bi-code-square" style="font-size: 1.5em;color:rgb(34, 201, 78);"></i>PROYECTOS</a>
+      </li>
+      
       <!-- CONTACTO -->
       <li>
-      <button type="button"  class="btn btn-dark"><i class="bi bi-envelope" style="font-size: 1.5em;color:rgb(34, 190, 201);"></i>CONTACTO</button>
+        <a class="btn btn-dark" href="#contacto" role="button"><i class="bi bi-envelope" style="font-size: 1.5em;color:rgb(34, 190, 201);"></i>CONTACTO</a>
       </li>
-      <!-- EXPERIENCIA -->
-      <li>
-        <button type="button"  class="btn btn-dark"><i class="bi bi-graph-up" style="font-size: 1.5em;color:rgb(223, 9, 87);"></i>EXPERIENCIA</button>
-        </li>
+      
       <!--LINKED IN -->
       <li>
-        <button type="button"  class="btn btn-dark"><i class="bi bi-linkedin" style="font-size: 1.5em;color:rgb(10, 102, 194);"></i></button>
+        <a class="btn btn-dark" href="#" role="button"><i class="bi bi-linkedin" style="font-size: 1.5em;color:rgb(10, 102, 194);"></i></a>
       </li>
       
        <!-- GITHUB -->
       <li>
-        <button type="button"  class="btn btn-dark"><i class="bi bi-github" style="font-size: 1.5em;"></i></button>
+        <a class="btn btn-dark" href="#" role="button"><i class="bi bi-github" style="font-size: 1.5em;"></i></a>
       </li>
-      
+   
       <!-- LOGIN -->
-      <button type="button"  class="btn btn-dark">Login</button>
+      <a class="btn btn-dark" href="#" role="button"><i class="fa-solid fa-arrow-right-to-bracket"></i>Login</a>
       
-    </nav> 
+    
+      </div> 
+      </nav> 
 
 </header>    
 
@@ -78,13 +85,15 @@
           </div>
       </div>
   </div>
+ </a>
 </div>  
 
 
 
 <!-- SOBRE MI -->
-
+<a name="sobremi">
 <div class="container">
+
 <div class="row">
 <div class="col-md-4">
     <div class="img2"><img src="WhatsApp%20Image%202022-02-03%20at%2014.07.49.jpeg" alt=""></div>
@@ -99,7 +108,7 @@
 
     <div class="col-md-8">
   <div class="row align-items-start">
-        <div class="col">
+        <div  class="col">
           <h2 >Sobre Mi</h2>  
         </div>
       
@@ -139,6 +148,7 @@
 </div>
 </div>
 <!-- EDUCACION -->
+<a name="educacion"></a>
 <div class="container">
 <div class="row"> 
 <h2>Educacion</h2>
@@ -186,6 +196,7 @@
 </div> 
 </div>
 <!-- PROYECTOS -->
+<a name="proyectos"></a>
 <div class="container">
 <div class="d-flex justify-content-between">
 <h2>Proyectos</h2> <a href=""><i class="bi bi-plus-square"></i></a>
@@ -377,6 +388,7 @@
 
 </div>
 <!-- CONTACTO -->
+<a name="contacto"></a>
 <div class="container">
 <h2 >Contacto</h2>  
 <form class="row g3">

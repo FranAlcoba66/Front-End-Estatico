@@ -6,7 +6,7 @@
 
 body{
   background-color: rgb(12, 62, 132);
-  
+  margin-top: 80px;
   color: rgb(0, 0, 0);
 } 
 
@@ -30,12 +30,11 @@ body{
 }
 
  
-.d-none >.btn:hover {
+/* .d-none >.btn:hover {
   transform: scale(1.5);
   
-}
-
-.navbar li >.btn:hover {
+} */
+.btn:hover {
   transform: scale(1.1);
   
 }
